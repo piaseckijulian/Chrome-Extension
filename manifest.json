@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Rick Astley",
+  "version": "1.0.0",
+  "description": "Never gonna give you up!",
+  "content_scripts": [
+    {
+      "js": ["Content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
